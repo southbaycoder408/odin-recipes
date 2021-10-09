@@ -1,15 +1,22 @@
 /* using universal selectotr " * " to target whole page for background color */
 
 *{
-    background-color:lightgray;
+    background-color:darkgray;
 }
 
 /* type selector "h1" to change title of page to cetnter page, chaging color to blac, making it bolder */
 
 h1{
-    color: black;
+    color: darkblue;
     text-align: center;
     font-weight: bolder;
+    font-size: 300%;
+}
+
+h2,
+.recipelinks{
+    font-weight: bolder;
+    font-size: 200%;
 }
 
 /* class selector " .pic " created and used stricly to edit images on all webpages */
@@ -25,3 +32,13 @@ img{
     height: auto;
 }
 
+li, p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.desc{
+    text-indent: 3%;
+    font-family: sans-serif;
+    font-size: larger;
+    line-height: 2;
+}
